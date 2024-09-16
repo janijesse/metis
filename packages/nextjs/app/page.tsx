@@ -14,8 +14,9 @@ const Home: NextPage = () => {
       <div className="flex items-center flex-col flex-grow pt-10">
         <div className="px-5">
           <h1 className="text-center">
-            <span className="block text-2xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">Scaffold-ETH 2</span>
+          <p className="text-center text-lg mt-4">
+<strong style={{ fontSize: '36px', color: '#04D1FF' }}>DEPLOY ON METIS</strong>
+</p> 
           </h1>
           <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
             <p className="my-2 font-medium">Connected Address:</p>
